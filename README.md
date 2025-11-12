@@ -11,7 +11,7 @@ User → CloudFront (HTTPS) → S3 (Static Website)
 - IAM: Manages permissions and access control  
 - (Optional) ACM: For custom domain certificates  
 
-![Architecture Diagram](architecture/static-website-architecture.png)
+![Architecture Diagram](aws-stattic-website/architecture/static-website-architecture.png)
 
 ---
 
