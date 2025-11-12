@@ -30,12 +30,18 @@ AWS S3 | AWS CloudFront | AWS IAM | AWS Certificate Manager (optional)
 
 ---
 
-## 📂 Folder Structure
-aws-s3-cloudfront-static-website/
-  ├── website/
-  ├── aws/
-  ├── architecture/
-  └── README.md
+##aws-s3-cloudfront-static-website/
+├── website/
+│   ├── index.html
+│   ├── style.css
+│   └── images/
+├── aws/
+│   ├── s3-bucket-policy.json
+│   └── cloudfront-setup-notes.md
+├── architecture/
+│   └── aws-s3-cloudfront-architecture.png
+└── README.md
+
 
 
 ---
