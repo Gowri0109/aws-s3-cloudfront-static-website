@@ -32,10 +32,10 @@ AWS S3 | AWS CloudFront | AWS IAM | AWS Certificate Manager (optional)
 
 ## 📂 Folder Structure
 aws-s3-cloudfront-static-website/
-├── website/
-├── aws/
-├── architecture/
-└── README.md
+  ├── website/
+  ├── aws/
+  ├── architecture/
+  └── README.md
 
 
 ---
