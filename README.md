@@ -14,7 +14,7 @@ The setup uses the **AWS Free Tier** and does **not require Route 53 or a custom
 - *(Optional)* **ACM:** For custom domain certificates  
 
 📊 **Architecture Diagram**  
-![Architecture Diagram](architecture/aws-s3-cloudfront-architecture.png)
+![Architecture Diagram](aws-stattic-website/architecture/static-website-architecture.png)
 
 ---
 
