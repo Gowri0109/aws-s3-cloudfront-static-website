@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chartset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89fa8853a0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div id="main">
+    <div class="navbar">
+        <div class="icon">
+                <h1 class="logo"> Gowri Suresh </h1>
+        </div>
+        
+        <div class="menu">
+                <ul>
+                    <li> <a  href="#main">Home</a></li> 
+                    <li> <a  href="#about">About</a></li> 
+                    <li> <a  href="#project">Projects</a></li>
+                    <li> <a  href="#certifications"> Certifications </a></li>
+                    <li> <a  href="#contact"> Contact</a></li>
+                </ul>                
+        </div>
+    </div>        
+            
+        <div class="content">
+                <h2 >Data science enthusiast</h2>
+                <p> Hey! This is Gowri Suresh. Welcome to my portfolio website. Let's get to know me through my projects and let's connect. </p>   
+        </div>
+
+            
+            
+    
+</div>
+
+<!------------about---------------- -->
+   
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="me.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>  Driven bioinformatics and data science enthusiast dedicated to achieving excellence through focused effort, proactive, problem-solving, and a positive mindset. To leverage my expertise in ongoing organizational projects while continuously enhancing skills, aiming to contribute effectively in dynamic research environments.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                    <p class="tab-links" onclick="opentab('education')"> Education</p>
+                    
+                </div>
+
+                <div class="tab-contents active-tab" id="'skills">
+                    <ul>
+                        <li><span>Programming</span><br> Python <br> SQL </li> <br>
+                        <li><span>Concepts</span><br>Machine Learning<br> Deep Learning <br> NumPy <br> Scikit-Learn <br> Pandas <br> Matplotlib <br> TensorFlow <br> Keras</li> <br>
+                        <li><span>Tools</span><br> Jupyter NoteBook <br> Bioinformatics Tools</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2023</span> <br> M.Sc Bioinformatics <br> JSS ACADEMY OF HIGHER EDUCATION & RESEARCH</li>
+                        <li><span>2018-2021</span><br> B.Sc in Biotechnology, Microbiology, Biochemistry (BMBt) <br> JSS COLLEGE FOR WOMENS</li>
+                    
+                    </ul>
+                </div>
+            </div> 
+                
+        </div>
+    </div>
+</div>
+
+<!-- ----------------Projects---------------------- -->
+
+
+<div id="project">
+    <div class="container">
+        <h1 class="subtitle"> Projects </h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Diabetes Prediction</h2>
+                <p>  Diabetes Prediction project that utilizes Machine Learning to predict the likelihood of diabetes based on input health parameters</p>
+
+                <a href="https://github.com/Gowri0109/Diabetes_prediction">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Image Processing</h2>
+                <p> Comparative Performance Analysis of Random Forest and CNN for Brain Tumor Detection and Classification in MRI Imaging</p>
+
+                <a href="https://github.com/Gowri0109/-Image-Processing-for-Brain-Tumor-Classification-and-detection">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-dna"></i>
+                <h2> Molecular Docking</h2>
+                <p> Identification of MAPKAPK2 (MK2) Non-Competitive inhibitors via in-silico analysis</p>
+
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- ---------Certifications---------- -->
+<div id="certifications"> 
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="cert-list">
+             <div class="certs", onclick="enlargeCertificate(this)">
+                <h1>Data Science Master Pro 2024 by iNeuron</h1>
+                <img src="ineuron_cert.png">
+            </div>
+            <div class="certs", onclick="enlargeCertificate(this)">
+                <h1>Complete Python 3 Programming Bootcamp:Beginner to Advance</h1>
+                <img src="udemy.jpg">
+            </div>
+            <div class="certs", onclick="enlargeCertificate(this)">
+                <h1>NPTEL: Bioiinformatics Algorithms and Applications</h1>
+                <img src="nptel.jpg">
+            </div>
+            <div class="certs", onclick="enlargeCertificate(this)">
+                <h1>Poster Presentation at International Conference</h1>
+                <img src="poster.jpg">
+                <p></p>
+            </div>
+            <!-- <div class="certs", onclick="enlargeCertificate(this)">
+                <h1>Participation in International Conference</h1>
+                <img src="conference.jpg">
+            </div> -->
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+<!-- ---------Contact---------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contant-left">
+                <h1 class="sub-title">Contact Me</h1><br>
+                <p><i class="fa-solid fa-envelope"></i>  gowris0109@gmail.com</p><br>
+                <p<i class="fa-solid fa-phone"></i>   +91-8792314159</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Gowri0109"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gowrisuresh01/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div> 
+        </div>
+
+        <a href="Gowri_Suresh.pdf" dwonload class="btn btn2"> Download CV</a>
+    </div>
+</div>
+
+<!-- ---------Copyright---------- -->
+<div class="copyright">
+    <p>Copyright © 2024 Gowri Suresh</p>
+</div>
+
+<script> 
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+    }
+
+    function enlargeCertificate(certs){
+        certs.classList.toggle("enlarged");
+
+        certs.classList - function(){
+            certs.classList.remove("enlarged");
+        }
+    }
+</script>
+</body>
+</html>

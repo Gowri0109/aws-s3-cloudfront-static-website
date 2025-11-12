@@ -1,0 +1,413 @@
+*{
+
+    padding: 0;
+    font-family: 'Poppins', sans-serif ;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    padding: 20px 0px;
+
+}
+
+#main{
+    width: 100%;
+    padding-inline-start: 10px 0;
+    background-position: center;
+    background-image:url(1.jpg) ;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.logo{
+    color:#c26482;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    position:fixed;
+    width: 600px;
+    float: left;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+
+ul li a:hover{
+    color: #d01560;
+}
+
+.content{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    margin-left: 30px;
+    color: #ff004f;
+}
+
+.content p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.content.span{
+    color: #ff7200;
+    font-size: 60px;
+
+}
+
+/*-------about------------- */ 
+
+#about {
+    padding: 80px 0;
+    color:#ababab
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-col-1{
+    flex-basis: 35%;
+
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;    
+}
+
+.about-col-2{
+    flex-basis: 60%;
+
+}
+
+.about-col-2 p{
+    padding-top: 10px;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%; 
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color:#b54769;
+    font-size: 20px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+/* -----projects---- */
+
+#project{
+    padding: 70px 0;
+    font-size: 30px;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.project-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+
+}
+
+.project-list i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.project-list h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.project-list div a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.project-list div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+    
+
+}
+
+/* -----Certifications---- */
+
+#certifications{ 
+    padding: 70px 0;
+    font-size: large;
+}
+
+.cert-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 70px;  
+    
+}
+
+.cert-list div{
+    background: #262626;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 40px; 
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.cert-list div h1{
+    font-size: 20px;
+}
+
+.cert-list div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+    
+
+}
+
+.certs-list{
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.certs img{
+    width: 100%;
+    margin: 10px 10px 10px 10px ;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.certs.enlarged {
+    width: 400px; /* Enlarged size */
+    height: 400px; /* Enlarged size */
+    z-index: 1000;
+    transform: scale(1.2); /* Scale up effect */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+}
+
+/* -----Contacts--- */
+
+#contact{
+    padding: 70px 0;
+}
+
+.contact-left{
+    flex-basis: 35%;
+
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background: #ff004f;
+    text-decoration: none;
+    color: white;
+}
+
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* --------------css for small screen---------------------- */
+
+.navbar.menu.fa-solid{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    .main{
+        background-image:url(phonebg.jpg);
+
+    }
+    .content h2{
+        font-size: 30px;
+    }
+
+    .content.par{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
